@@ -1,20 +1,11 @@
 header {
     height: 50px;
-    border: 1px solid red;
     position: relative;
 }
 
 .middle-section {
     width: auto;
     position: relative;
-    border: 1px solid red;
-}
-
-footer {
-    position: fixed;
-    width: 99%;
-    border: 1px solid black;
-    bottom: 0;
 }
 
 img {
@@ -29,7 +20,6 @@ img {
     position: relative;
     height: 500px;
     width: 582px;
-    border: 1px solid green;
     left: 35%;
 }
 
@@ -120,9 +110,46 @@ li {
     top: 2px;
     padding: 5px;
     text-decoration: none;
+    color: #000;
+    opacity: 0.75;
 }
 
 .nav-left {
     position: relative;
     right: 23px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    background-color:#f2f2f2;
+    line-height: 8px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer a {
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    color: #5f6368;
+    padding-left: 15px;
+    white-space: nowrap;
+}
+
+.bottom-left-nav {
+    float: left;
+}
+
+.bottom-right-nav {
+    position: relative;
+    float: right;
+    padding-right: 35px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
